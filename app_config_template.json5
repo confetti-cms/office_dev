@@ -1,14 +1,14 @@
 {
   environments: [
     {
-      key: 'localhost',
+      key: 'production',
       run_on_localhost: 'true',
       containers: [
         // Main view service
         {
           name: 'confetti-cms/view-php',
           hosts: [
-            '__HOST__',
+            'confetti-cms.com',
           ],
           paths: [
             '/',
@@ -17,7 +17,59 @@
         // For all other services
         {
           hosts: [
-            '__HOST__',
+            'confetti-cms.com',
+          ],
+          paths: [
+            '/conf_api',
+          ],
+          user_service_in_uri: true,
+        },
+      ],
+    },
+    {
+      key: 'bart',
+      run_on_localhost: 'true',
+      containers: [
+        // Main view service
+        {
+          name: 'confetti-cms/view-php',
+          hosts: [
+            'bart.confetti-cms.com',
+          ],
+          paths: [
+            '/',
+          ],
+        },
+        // For all other services
+        {
+          hosts: [
+            'bart.confetti-cms.com',
+          ],
+          paths: [
+            '/conf_api',
+          ],
+          user_service_in_uri: true,
+        },
+      ],
+    },
+    {
+      key: 'daniel',
+      run_on_localhost: 'true',
+      containers: [
+        // Main view service
+        {
+          name: 'confetti-cms/view-php',
+          hosts: [
+            'daniel.confetti-cms.com',
+          ],
+          paths: [
+            '/',
+          ],
+        },
+        // For all other services
+        {
+          hosts: [
+            'daniel.confetti-cms.com',
           ],
           paths: [
             '/conf_api',
