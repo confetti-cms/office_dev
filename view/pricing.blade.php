@@ -1,715 +1,97 @@
 <div class="pt-[70px]">
   <!-- Start pricing -->
-<section
-class="relative z-20 overflow-hidden bg-white pt-20 lg:pt-[120px]"
->
-<div class="container mx-auto">
-  <div class="-mx-4 flex flex-wrap">
-    <div class="w-full px-4">
-      <div class="mx-auto max-w-[510px] text-center lg:mb-8">
-        <h2 class="text-primary mb-2 block text-lg font-semibold">
-          Pricing Table
-        </h2>
-        <div
-          class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
-        >
-          Only pay for hosting
+<section class="relative pt-20">
+  <div class="relative container mx-auto">
+    <div class="absolute mt-0 right-4 lg:left-40 w-32 h-32 md:w-48 md:h-48 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+    <div class="absolute mt-[400px] lg:mt-[500px] -left-4 lg:left-[500px] w-64 h-64 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob "></div>
+    <div class="absolute mt-[600px] lg:mt-[700px] left-20 md:left-[300px] lg:left-[600px] w-64 h-64 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+    <div class="relative -mx-4 flex flex-wrap">
+      <div class="w-full px-4">
+        <div class="mx-auto max-w-[510px] text-center">
+          <h2 class="text-primary mb-2 block text-lg font-semibold">
+            Pricing Table
+          </h2>
+          <div
+            class="text-dark mb-4 text-3xl font-bold text-4xl md:text-[40px]"
+          >
+            Only pay for hosting
+          </div>
+          <p class="text-body-color text-base font-body font-bold">
+            Confetti offers various solutions to help you build websites faster. Trying it out is free. When you are ready to publish your website, you only pay for hosting.
+          </p>
         </div>
-        <p class="text-body-color text-base font-body font-bold">
-          Confetti offers various solutions to help you build websites faster. Trying it out is free. When you are ready to publish your website, you only pay for hosting.
-        </p>
       </div>
     </div>
-  </div>
-  <div class="text-center py-4 lg:px-4">
-    <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none rounded-full flex inline-flex" role="alert">
-      <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">Beta</span>
-      <span class="font-semibold mr-2 text-left flex-auto">Since Confetti is in beta, all plans are currently free</span>
-      <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+    <div class="text-center pt-8">
+      <div class="py-2 px-4 bg-primary items-center leading-none rounded-full flex inline-flex text-white">
+        <span class="flex rounded-full border border-opacity-20 border-white uppercase px-2 py-1 text-xs font-bold mr-3">Beta</span>
+        <div class="font-semibold mr-2 text-left flex-col md:hidden"><div>Since Confetti is in beta</div><div>all plans are currently free</div></div>
+        <div class="font-semibold mr-2 text-left flex-col hidden md:block">Since Confetti is in beta, all plans are currently free</div>
+      </div>
     </div>
-  </div>
-  <div class="-mx-4 flex flex-wrap justify-center">
-    <div class="w-full px-4">
-      <div
-              class="border-primary shadow-pricing mb-10 relative z-10 overflow-hidden rounded-xl border border-opacity-20 bg-white py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12"
+    <div class="-mx-4 md:mx-2 flex flex-wrap justify-center pt-8">
+      <div class="w-full md:w-1/2 px-4 md:pt-8">
+        <div class="border-primary relative overflow-hidden rounded-xl border border-opacity-20 bg-white p-8">
+          <h2 class="text-primary mb-4 block text-lg font-semibold">
+            Learning, testing and developing
+          </h2>
+          <div class="text-dark mb-5 text-[42px] font-bold">Free</div>
+          <p
+                  class="text-body-color text-base font-body font-bold"
+          >
+              Confetti-CMS is free to use for tinkering your next idea.
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 px-4 mb-10 pt-8">
+        <div class="relative h-full rounded-xl border border-primary border-opacity-20 bg-white mb-16 p-8">
+          <h2 class="text-primary mb-4 block text-lg font-semibold">
+              Personal & small business
+          </h2>
+          <div class="text-dark mb-5 text-[42px] font-bold">
+            €10
+            <span class="text-body-color text-base font-medium"> / month</span>
+          </div>
+          <p class="text-body-color mb-2 pb-2 text-base font-body font-bold">
+              Perfect for a personal website, local club or a small business.
+          </p>
+          <div class="absolute -bottom-16 -right-2 md:-right-4 py-5 px-4 md:px-5 border-primary rounded-xl border border-opacity-20 bg-white">
+            <h2 class="text-primary mb-4 block text-lg font-semibold">
+              High traffic website
+            </h2>
+            <div class="text-dark text-lg font-bold">
+              + €24 <span class="text-body-color text-base font-medium">/ month</span>
+              <div class="text-body-color text-base font-medium">
+                <div class="flex-col text-base font-body"><div>for every</div><div>additional resource</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="-mx-4 md:mx-20 mt-10 flex flex-wrap p-4">
+      <div>
+          <h2 class="text-primary mb-4 block text-lg font-semibold">
+            Do you have a high traffic website?
+          </h2>
+          <p class="text-body-color text-base font-body font-bold">Let us handle the stress for you. So you can scale your business.</p>
+          <ul class="mt-3 list-disc list-inside text-gray-500 dark:text-gray-400 font-body">
+            <li class="text-body-color mb-1 ">Backups</li>
+            <li class="text-body-color mb-1 ">SSL-certificate</li>
+            <li class="text-body-color mb-1 ">Multiple domains</li>
+            <li class="text-body-color mb-1 ">Private network</li>
+            <li class="text-body-color mb-1 ">Test environments</li>
+            <li class="text-body-color mb-1 ">Secured with Auth0</li>
+          </ul>
+      </div>
+      <a
+              href="javascript:void(0)"
+              class="bg-primary border-primary block w-full lg:w-1/2 rounded-md border mt-8 p-4 text-center text-base font-semibold text-white transition hover:bg-opacity-90"
       >
-        <h2 class="text-primary mb-4 block text-lg font-semibold">
-          Learning, testing and developing
-        </h2>
-        <span class="text-dark mb-5 text-[42px] font-bold">
-          Free
-        </span>
-        <p
-                class="text-body-color mb-8 text-base font-body font-bold"
-        >
-          Confetti-CMS is free to use for tinkering your next idea.
-        </p>
-        <a
-                href="javascript:void(0)"
-                class="bg-primary border-primary block w-full rounded-md border p-4 text-center text-base font-semibold text-white transition hover:bg-opacity-90"
-        >
-          Get started
-        </a>
-        <div>
-          <span class="absolute right-0 top-7 z-[-1]">
-            <svg
-                    width="77"
-                    height="172"
-                    viewBox="0 0 77 172"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-              <defs>
-                <linearGradient
-                        id="paint0_linear"
-                        x1="86"
-                        y1="0"
-                        x2="86"
-                        y2="172"
-                        gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#3056D3" stop-opacity="0.09" />
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </span>
-          <span class="absolute right-4 top-4 z-[-1]">
-            <svg
-                    width="41"
-                    height="89"
-                    viewBox="0 0 41 89"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                      cx="38.9138"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 87.4849)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 74.9871)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 62.4892)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 38.3457)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 13.634)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 50.2754)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 26.1319)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="38.9138"
-                      cy="1.42021"
-                      r="1.42021"
-                      transform="rotate(180 38.9138 1.42021)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="87.4849"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 87.4849)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="74.9871"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 74.9871)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="62.4892"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 62.4892)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="38.3457"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 38.3457)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="13.634"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 13.634)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="50.2754"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 50.2754)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="26.1319"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 26.1319)"
-                      fill="#3056D3"
-              />
-              <circle
-                      cx="26.4157"
-                      cy="1.4202"
-                      r="1.42021"
-                      transform="rotate(180 26.4157 1.4202)"
-                      fill="#3056D3"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
+        Get started
+      </a>
     </div>
   </div>
-  <div class="-mx-4 flex flex-wrap justify-center">
-    <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-      <div
-        class="border-primary shadow-pricing relative z-10 overflow-hidden rounded-xl border border-opacity-20 bg-white py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12"
-      >
-        <h2 class="text-primary mb-4 block text-lg font-semibold">
-          Personal & small business
-        </h2>
-        <div class="text-dark mb-5 text-[42px] font-bold">
-          €10
-          <span class="text-body-color text-base font-medium"> / month</span>
-        </div>
-        <p
-          class="text-body-color mb-8 border-b border-[#F2F2F2] pb-8 text-base font-body font-bold"
-        >
-        Perfect for a personal website, local club or a small business.
-        </p>
-        <div>
-          <p class="text-body-color mb-1 text-base leading-loose">Backups</p>
-          <p class="text-body-color mb-1 text-base leading-loose">SSL-certificate</p>
-          <p class="text-body-color mb-1 text-base leading-loose">Multiple domains</p>
-          <p class="text-body-color mb-1 text-base leading-loose">Private network</p>
-          <p class="text-body-color mb-1 text-base leading-loose">Test environments</p>
-          <p class="text-body-color mb-1 text-base leading-loose">Secured with Auth0</p>
-        </div>
-        <div>
-          <span class="absolute right-0 top-7 z-[-1]">
-            <svg
-              width="77"
-              height="172"
-              viewBox="0 0 77 172"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-              <defs>
-                <linearGradient
-                  id="paint0_linear"
-                  x1="86"
-                  y1="0"
-                  x2="86"
-                  y2="172"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#3056D3" stop-opacity="0.09" />
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </span>
-          <span class="absolute right-4 top-4 z-[-1]">
-            <svg
-              width="41"
-              height="89"
-              viewBox="0 0 41 89"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="38.9138"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 38.9138 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 38.9138 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 38.9138 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 38.9138 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 38.9138 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 38.9138 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 38.9138 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="1.42021"
-                r="1.42021"
-                transform="rotate(180 38.9138 1.42021)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 26.4157 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 26.4157 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 26.4157 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 26.4157 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 26.4157 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 26.4157 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 26.4157 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="1.4202"
-                r="1.42021"
-                transform="rotate(180 26.4157 1.4202)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 13.9177 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 13.9177 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 13.9177 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 13.9177 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 13.9177 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 13.9177 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 13.9177 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="1.42019"
-                r="1.42021"
-                transform="rotate(180 13.9177 1.42019)"
-                fill="#3056D3"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-      <div
-        class="border-primary shadow-pricing relative z-10 h-full overflow-hidden rounded-xl border border-opacity-20 bg-white py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12"
-      >
-        <h2 class="text-primary mb-4 block text-lg font-semibold">
-          High traffic website
-        </h2>
-        <div class="text-dark mb-5 text-[42px] font-bold">
-          + €24
-          <span class="text-body-color text-base font-medium"> / month<br>for every additional resource</span>
-        </div>
-        <p class="text-body-color mb-8 pb-8 text-base font-body font-bold">
-            Do you have a high traffic website? Let us handle the stress for you. So you can scale your business.
-        </p>
-        <div>
-          <span class="absolute right-0 top-7 z-[-1]">
-            <svg
-              width="77"
-              height="172"
-              viewBox="0 0 77 172"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-              <defs>
-                <linearGradient
-                  id="paint0_linear"
-                  x1="86"
-                  y1="0"
-                  x2="86"
-                  y2="172"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#3056D3" stop-opacity="0.09" />
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </span>
-          <span class="absolute right-4 top-4 z-[-1]">
-            <svg
-              width="41"
-              height="89"
-              viewBox="0 0 41 89"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="38.9138"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 38.9138 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 38.9138 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 38.9138 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 38.9138 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 38.9138 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 38.9138 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 38.9138 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="38.9138"
-                cy="1.42021"
-                r="1.42021"
-                transform="rotate(180 38.9138 1.42021)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 26.4157 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 26.4157 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 26.4157 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 26.4157 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 26.4157 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 26.4157 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 26.4157 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="26.4157"
-                cy="1.4202"
-                r="1.42021"
-                transform="rotate(180 26.4157 1.4202)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 13.9177 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 13.9177 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 13.9177 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 13.9177 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 13.9177 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 13.9177 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 13.9177 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="13.9177"
-                cy="1.42019"
-                r="1.42021"
-                transform="rotate(180 13.9177 1.42019)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="87.4849"
-                r="1.42021"
-                transform="rotate(180 1.41963 87.4849)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="74.9871"
-                r="1.42021"
-                transform="rotate(180 1.41963 74.9871)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="62.4892"
-                r="1.42021"
-                transform="rotate(180 1.41963 62.4892)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="38.3457"
-                r="1.42021"
-                transform="rotate(180 1.41963 38.3457)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="13.634"
-                r="1.42021"
-                transform="rotate(180 1.41963 13.634)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="50.2754"
-                r="1.42021"
-                transform="rotate(180 1.41963 50.2754)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="26.1319"
-                r="1.42021"
-                transform="rotate(180 1.41963 26.1319)"
-                fill="#3056D3"
-              />
-              <circle
-                cx="1.41963"
-                cy="1.4202"
-                r="1.42021"
-                transform="rotate(180 1.41963 1.4202)"
-                fill="#3056D3"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 </section>
 <!-- End pricing -->
 @include('view.faq')

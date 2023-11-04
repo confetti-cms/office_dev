@@ -1,8 +1,8 @@
 @php($compare = section('homepage/compare')->label('Compare'))
 <div class="bg-gray-50 flex items-center justify-center">
     @php($cases = $compare->list('cases')->columns(['title', 'description'])->min(1)->max(4))
-    <div class="relative w-full max-w-5xl" x-data="{ tab: '0'}">
-        <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+    <div class="relative w-full" x-data="{ tab: '0'}">
+        <div class="absolute top-0 right-0 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
         <div class="absolute top-20 -left-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob "></div>
         <div class="absolute -bottom-32 left-20 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
         <div class="relative">

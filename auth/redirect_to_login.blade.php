@@ -1,6 +1,5 @@
 <div
         class="flex items-center justify-center w-full h-screen bg-gray-50 dark:bg-gray-900"
-        x-data="{ show: false }" x-show="show" x-init="setTimeout(() => show = true, 3000)"
 >
     Redirect to login page...
 </div>
@@ -15,7 +14,7 @@
             }
             // Get redirect url
             let xhr = new XMLHttpRequest();
-            xhr.open('GET', apiUrl  + '/confetti-cms/auth/login', true);
+            xhr.open('GET', apiUrl + '/confetti-cms/auth/login', true);
             xhr.responseType = 'json';
             xhr.setRequestHeader('Accept', 'application/json');
             xhr.onload = function () {
