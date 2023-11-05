@@ -2,7 +2,7 @@
   environments: [
     {
       key: 'localhost',
-      run_on_localhost: 'true',
+      run_on_localhost: true,
       containers: [
         // Main view service
         {
@@ -28,7 +28,7 @@
     },
     {
       key: 'bart',
-      run_on_localhost: 'true',
+      run_on_localhost: true,
       containers: [
         // Main view service
         {
@@ -54,7 +54,7 @@
     },
     {
       key: 'daniel',
-      run_on_localhost: 'true',
+      run_on_localhost: true,
       containers: [
         // Main view service
         {
